@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+.switcher {background-image: url(../image/switch_sprite.png); background-size: 100% 200%; width: 50px; height: 28px; padding: 0;}
+.on {background-position-y: -100%;}
+
+function switcher() {
+    var _switcher;
+    var _status;
+
+    return {
+        flip : function (_index) {
+            if (this._status === 0) {
+                this._switcher[_index].className = "switcher";
+                this._status = 1;
+            } else {
+                this._switcher[_index].className = "switcher on";
+                this._status = 0;
+            }
+        },
+        init : function () {
+            this._switcher = document.getElementsByClassName('switcher');
+        }
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>apiswitcher</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+api.openSlidLayout({
+        // leftEdge 是向右滑动时，slide页面留下的像素数
+        leftEdge:60,
+        type:'left',
+        fixedPane:{
+            name: '${1:down_frame}',
+            bgColor : '${2:#000}',
+            url: './${1:down_frame}.html'
+        },
+        slidPane:{
+            name: '${3:up_frame}',
+            reload : '${4:#0fc}',
+            url: './${3:up_frame}.html'
+        }
+    }, function(ret) {
+        /* 暂时不需要做任何事. */
+
+    }
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apiopenslide</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

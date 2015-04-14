@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+// 拦截回退键
+api.addEventListener({
+    name: 'keyback'
+}, function(ret, err){
+    api.closeWidget({
+        id: '${1:appid}',
+        retData: {name:'closeWidget'}
+    });
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>api-backbtn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
