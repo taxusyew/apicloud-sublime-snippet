@@ -3,11 +3,11 @@
 api.addEventListener({
     name: '${1:eventType}'
 }, function(ret, err){
-    api.alert({msg: '已联网'});
+    api.alert({msg: 'eventType'});
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>api-addeventlistener</tabTrigger>
+    <tabTrigger>api.addEventListener</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>
