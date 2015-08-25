@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
 api.execScript({
-    name:'${1:windowname}',
-    frameName: '${2:framename}',
+    name:'${1:window_name}',
+    frameName: '${2:frame_name}',
     script:'${3:func}();'
 });
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>api-execscript</tabTrigger>
+	<tabTrigger>api.execscript</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
