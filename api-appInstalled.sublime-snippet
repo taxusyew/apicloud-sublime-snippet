@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-var appBundle;
+var appBundle = '';
 if (api.systemType == 'ios'){
     appBundle = '${1:ios_scheme}';
 } else {
@@ -10,14 +10,13 @@ api.appInstalled({
     appBundle: appBundle
 },function(ret,err){
     if (ret.installed) {
-        ${3:android_scheme}
     } else {
 
     }
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>api-appInstalled</tabTrigger>
+    <tabTrigger>api.appInstalled</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>

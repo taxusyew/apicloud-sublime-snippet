@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
 api.openApp({
+    // 调用系统浏览器Safari打开百度，其中http为Safari的URL Scheme；
+    // 同理，微信的URL Scheme为weixin，因此可以通过传weixin://来打开微信
     iosUrl: '${1:http://www.baidu.com}',
-    // iosUrl为http://www.baidu.com，则最后传递给第三方应用的url为http://www.baidu.com?keyword=APICloud
-    // appParam里面不要有JSON对象或数组
-    appParam: {'${2:keyword}': '${3:param}'}
+    appParam: {appParam: '${2:param}'}
 },function(ret,err){
     var msg = JSON.stringify(ret);
     api.alert({
@@ -15,7 +15,7 @@ api.openApp({
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>api-openApp-ios</tabTrigger>
+    <tabTrigger>api.openApp-ios</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>

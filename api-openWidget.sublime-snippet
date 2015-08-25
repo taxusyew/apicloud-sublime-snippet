@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 api.openWidget({
-    id: '${1:appid}',
+    id: '${1:widgetid}',
     animation: {
         type: '${2:flip}',
         subType: '${3:from_bottom}',
@@ -9,12 +9,12 @@ api.openWidget({
     }
 }, function(ret, err){
     if(ret){
-        ${5://TODO}
+        ${5:// TODO}
     }
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>api-openWidget</tabTrigger>
+    <tabTrigger>api.openWidget</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>
