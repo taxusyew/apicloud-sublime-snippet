@@ -1,17 +1,12 @@
 <snippet>
     <content><![CDATA[
-api.confirm({
-    title: '${1:title}',
-    msg: '${2:msg}',
-    buttons:['确定', '取消']
-},function(ret,err){
-    if(ret.buttonIndex == 1){
-        api.alert({msg: '点击了确定'});
-    }
+api.showFloatBox({
+    iconPath: '${1: icon_path}',
+    duration: ${2: millisecond}
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>api.confirm</tabTrigger>
+    <tabTrigger>api.showFloatBox</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>

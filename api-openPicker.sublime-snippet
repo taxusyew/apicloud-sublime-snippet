@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 api.openPicker({
-    type: 'date_time',
-    date: '2015-04-24 15:45',
-    title:'选择时间'
+    type: '${1: date_time}',
+    date: '${2: 2015-04-24 15:45}',
+    title:'${3: title}'
 },function(ret,err){
     var year   = ret.year;
     var month  = ret.month;
@@ -20,7 +20,7 @@ api.openPicker({
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>api-openPicker</tabTrigger>
+    <tabTrigger>api.openPicker</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>
