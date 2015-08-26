@@ -1,9 +1,12 @@
 <snippet>
     <content><![CDATA[
-api.toLauncher();
+api.call({
+	type: '${1: call_type}',
+	number: '${2: number}'
+});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>api.toLauncher</tabTrigger>
+    <tabTrigger>api.call</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>
