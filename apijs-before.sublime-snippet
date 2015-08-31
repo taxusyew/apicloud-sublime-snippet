@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-$api.before(${1:el}, ${2:html});
+\$api.before(${1:el}, ${2:html});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>$api.before</tabTrigger>
+    <tabTrigger>apijs-before</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>

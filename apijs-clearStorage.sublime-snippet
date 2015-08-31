@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-$api.clearStorage();
+\$api.clearStorage();
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>$api.clearStorage</tabTrigger>
+    <tabTrigger>apijs-clearStorage</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>

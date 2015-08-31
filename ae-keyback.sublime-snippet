@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-api.keyback;
+keyback
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>ae-keyback</tabTrigger>

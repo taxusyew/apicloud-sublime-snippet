@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-api.offline;
+offline
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>ae-offline</tabTrigger>

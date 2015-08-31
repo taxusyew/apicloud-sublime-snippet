@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-api.keymenu;
+keymenu
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>ae-keymenu</tabTrigger>

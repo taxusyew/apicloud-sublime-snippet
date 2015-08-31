@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-$api.post(${1:param_str_url_data_fnsuc_dataType});
+\$api.post(${1:param_str_url_data_fnsuc_dataType});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>$api.post</tabTrigger>
+    <tabTrigger>apijs-post</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>
