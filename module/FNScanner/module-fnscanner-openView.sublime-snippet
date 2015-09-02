@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+fnscanner.openView({
+    sound: '${1:sound_path}',
+    autoLight: ${2:true},
+    saveToAlbum: ${3:false},
+    saveImg: {
+        path: '${4:image_path}',
+	w: ${5:width},
+	h: ${6:height}
+    },
+    rect: {
+        x: ${7:x},
+	y: ${8:y},
+	w: ${9:width},
+	h: ${10:height}
+    }
+}, function(ret, err){
+    if(ret){
+	alert(JSON.stringify(ret));
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fnscanner-openView</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>打开可自定义的二维码/条形码扫描器</description>
+</snippet>
