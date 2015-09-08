@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-uicustompicker.show({id: ${1:id}});
+uicustompicker.show({id: ${1:0}});
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>uicustompicker-show</tabTrigger>

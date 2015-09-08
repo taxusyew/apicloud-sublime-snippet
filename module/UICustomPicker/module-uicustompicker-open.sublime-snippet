@@ -2,10 +2,10 @@
     <content><![CDATA[
 uicustompicker.open({
     rect: {
-        x: ${1:x},
-        y: ${2:y},
-        w: ${3:w},
-        h: ${4:h}
+        x: ${1:0},
+        y: ${2:0},
+        w: ${3:320},
+        h: ${4:480}
     },
     styles: {
         bg: '${5:bg}',
@@ -13,7 +13,7 @@ uicustompicker.open({
         selectedColor: '${7:selectedColor}',
         selectedSize: ${8:selectedSize},
         tagColor: '${9:tagColor}',
-        tagSize: ${10:tagSize}
+        tagSize: ${10:12}
     },
     data: [{
         tag: '${11:tag}',
