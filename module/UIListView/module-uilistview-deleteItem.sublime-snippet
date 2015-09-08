@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 uilistview.deleteItem({
-    index: ${1:index_number}
+    index: ${1:0}
 }, function(ret, err){
     if(ret.status){
         alert('删除成功');

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 uilistview.getIndex({
-    key: ${1:key},
-    value: ${2:value}
+    key: '${1:key}',
+    value: '${2:value}'
 }, function(ret, err){
     alert(JSON.stringify(ret));
 });

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 uilistview.setAttr({
-    y: ${1:y},
-    h: ${2:height}
+    y: ${1:40},
+    h: ${2:200}
 }, function(ret, err){
     alert('设置成功');
 });
