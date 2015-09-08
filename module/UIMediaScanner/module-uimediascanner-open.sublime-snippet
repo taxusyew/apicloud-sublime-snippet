@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 uimediascanner.open({
-    column: ${1:column},
+    column: ${1:4},
     classify:${2:true},
-    max: ${3:max},
+    max: ${3:4},
     sort: {
         key: '${4:time}',
         order: '${5:desc}'
@@ -18,18 +18,18 @@ uimediascanner.open({
         mark: {
             icon: '${10:path}',
             position: '${11:positon}',
-            size: ${12:size}
+            size: ${12:20}
         },
         nav: {
             bg: '${13:bg}',
             stateColor: '${14:stateColor}',
-            stateSize: ${15:stateSize},
+            stateSize: ${15:18},
             cancleBg: '${16:cancleBg}',
             cancelColor: '${17:cancelColor}',
-            cancelSize: ${18:cancelSize},
+            cancelSize: ${18:18},
             finishBg: '${19:finishBg}',
             finishColor: '${20:finishColor}',
-            finishSize: ${21:finishSize}
+            finishSize: ${21:18}
         }
     }
 }, function(ret){

@@ -2,7 +2,7 @@
     <content><![CDATA[
 uimediascanner.scan({
     type: '${1:type}',
-    count: ${2:count},
+    count: ${2:10},
     sort: {
         key: '${3:time}',
         order: '${4:desc}'
