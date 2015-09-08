@@ -16,4 +16,5 @@ fs.readUp({
     <tabTrigger>fs-readUp</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>从当前文件句柄当前位置向上读取一页(页的大小如length)数据</description>
 </snippet>
