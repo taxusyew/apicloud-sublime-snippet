@@ -20,4 +20,5 @@ wx.shareMusic({
     <tabTrigger>wx-shareMusic</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>分享网络音频资源</description>
 </snippet>
