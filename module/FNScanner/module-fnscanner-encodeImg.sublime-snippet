@@ -6,8 +6,8 @@ fnscanner.encodeImg({
     saveToAlbum: ${3:false},
     saveImg: {
         path: '${4:image_path}',
-	w: ${5:width},
-	h: ${6:height}
+	w: ${5:200},
+	h: ${6:200}
     }
 }, function(ret, err){
     if(ret){

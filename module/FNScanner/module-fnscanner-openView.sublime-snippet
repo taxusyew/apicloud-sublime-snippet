@@ -6,14 +6,14 @@ fnscanner.openView({
     saveToAlbum: ${3:false},
     saveImg: {
         path: '${4:image_path}',
-	w: ${5:width},
-	h: ${6:height}
+	w: ${5:200},
+	h: ${6:200}
     },
     rect: {
-        x: ${7:x},
-	y: ${8:y},
-	w: ${9:width},
-	h: ${10:height}
+        x: ${7:0},
+	y: ${8:0},
+	w: ${9:320},
+	h: ${10:480}
     }
 }, function(ret, err){
     if(ret){
