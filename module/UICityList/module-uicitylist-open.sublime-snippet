@@ -2,10 +2,10 @@
     <content><![CDATA[
 uicitylist.open({
     rect: {
-        x: ${1:x},
-        y: ${2:y},
-        w: ${3:width},
-        h: ${4:height}
+        x: ${1:0},
+        y: ${2:0},
+        w: ${3:320},
+        h: ${4:480}
     },
     resource: '${5:resource}',
     styles: {
@@ -15,19 +15,19 @@ uicitylist.open({
         },
         location: {
             color: '${8:color}',
-            size: ${9:size}
+            size: ${9:12}
         },
         sectionTitle: {
             bgColor: '${10:bgColor}', 
             color: '${11:color}',
-            size: ${12:size}
+            size: ${12:12}
         },
         item: {
             bgColor: '${13:bgColor}',
             activeBgColor: '${14:activeBgColor}',
             color: '${15:color}',
-            size: ${16:size},
-            height: ${17:height}
+            size: ${16:12},
+            height: ${17:25}
         },
         indicator: {
             bgColor: '${18:bgColor}',
