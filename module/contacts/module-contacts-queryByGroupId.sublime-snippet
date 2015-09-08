@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 contacts.queryByGroupId({
-    groupId: ${1:group_id}
+    groupId: ${1:1}
 },function(ret,err){
     if(ret.status){
         alert(JSON.stringify(ret));

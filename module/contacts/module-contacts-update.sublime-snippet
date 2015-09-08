@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 contacts.update(
-    id: ${1:id},
+    id: ${1:1},
     lastName: '${2:lastname}',
     firstName: '${3:firstname}',
     phones: [{

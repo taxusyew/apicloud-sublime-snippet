@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 contacts.delete({
-    ids: [${1:id_1}, ${2:id_2}]
+    ids: [${1:1}, ${2:2}]
 }, function(ret, err){
     if(ret.status) {
         api.alert({msg:'删除成功'});

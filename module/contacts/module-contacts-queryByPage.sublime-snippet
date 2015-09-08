@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 contacts.queryByPage({
-    count: ${1:count_number},
-    pageIndex: ${2:pageindex}
+    count: ${1:10},
+    pageIndex: ${2:0}
 }, function(ret){
     if(ret.status){
         alert(JSON.stringify(ret.contacts));

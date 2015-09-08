@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 contacts.move({
-    id: ${1:id},
-    groupId: ${2:groupid}
+    id: ${1:1},
+    groupId: ${2:20}
 }, function(ret, err){
     if(ret.status){
         alert('移动分组成功');
