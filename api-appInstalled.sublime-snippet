@@ -19,4 +19,5 @@ api.appInstalled({
     <tabTrigger>api-appInstalled</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>判断设备上面是否已安装指定应用</description>
 </snippet>

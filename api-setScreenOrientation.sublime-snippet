@@ -8,4 +8,5 @@ api.setScreenOrientation({
     <tabTrigger>api-setScreenOrientation</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>设置屏幕旋转方向</description>
 </snippet>

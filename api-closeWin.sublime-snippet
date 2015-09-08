@@ -13,4 +13,5 @@ api.closeWin({
     <tabTrigger>api-closeWin</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>关闭window</description>
 </snippet>

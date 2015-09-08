@@ -16,4 +16,5 @@ api.setRefreshHeaderInfo({
     <tabTrigger>api-setRefreshHeaderInfo</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>显示顶部下拉刷新，此时当前页面会被设为弹动</description>
 </snippet>

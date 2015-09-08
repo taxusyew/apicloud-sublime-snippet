@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 api.download({
-    url: ${1:url},
+    url: '${1:url}',
     savePath: 'fs://${2:file_name}',
     report: ${3:true},
     cache: ${4:true},
@@ -18,4 +18,5 @@ api.download({
     <tabTrigger>api-download</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>下载文件</description>
 </snippet>

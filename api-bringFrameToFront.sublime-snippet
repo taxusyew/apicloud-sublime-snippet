@@ -9,4 +9,5 @@ api.bringFrameToFront({
     <tabTrigger>api-bringFrameToFront</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>调整frame到前面</description>
 </snippet>

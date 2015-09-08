@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 fs.exist({
-    path: ${1:file_path}
+    path: '${1:file_path}'
 },function(ret,err){
     if (ret.exist) {
         if(ret.directory){
@@ -18,4 +18,5 @@ fs.exist({
     <tabTrigger>fs-exist</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>判断文件是否存在</description>
 </snippet>

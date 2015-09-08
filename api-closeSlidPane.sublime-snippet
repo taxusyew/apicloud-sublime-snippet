@@ -6,5 +6,5 @@ api.closeSlidPane();
 	<tabTrigger>api-closeSlidPane</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
-	<description>收起SlidPane</description>
+	<description>当SlidPane处于左或右侧滑状态时，将其收起</description>
 </snippet>

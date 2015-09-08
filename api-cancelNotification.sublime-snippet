@@ -8,4 +8,5 @@ api.cancelNotification({
     <tabTrigger>api-cancelNotification</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>取消本应用弹出到状态栏的某个或所有通知</description>
 </snippet>

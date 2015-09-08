@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
 api.mail({
-    recipients: ['${1: receive_mail}'],
-    subject: '${2: mail_title}',
-    body: '${3: mail_body}',
-    attachments: ['${4: attachments_url}']
+    recipients: ['${1:receive_mail}'],
+    subject: '${2:mail_title}',
+    body: '${3:mail_body}',
+    attachments: ['${4:attachments_url}']
 }, function(ret, err){
     if(ret.status){
         api.alert({
@@ -21,4 +21,5 @@ api.mail({
     <tabTrigger>api-mail</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>发送邮件</description>
 </snippet>

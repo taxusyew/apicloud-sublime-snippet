@@ -6,4 +6,5 @@ keymenu
     <tabTrigger>ae-keymenu</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>设备menu键被点击事件，仅Android平台有效</description>
 </snippet>

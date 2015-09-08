@@ -2,8 +2,8 @@
     <content><![CDATA[
 api.animation({
     name: '${1:frame_name}',
-    delay: ${2:delay_time},
-    duration: ${3:duration_time},
+    delay: ${2:1000},
+    duration: ${3:3000},
     curve: '${4:ease_in}',
     repeatCount: ${5:2},
     autoreverse: ${6:true},
@@ -32,4 +32,5 @@ api.animation({
     <tabTrigger>api-animation</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>frame动画，支持平移，缩放，旋转和透明度变化</description>
 </snippet>

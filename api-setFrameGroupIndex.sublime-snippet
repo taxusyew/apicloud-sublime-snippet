@@ -2,7 +2,7 @@
 	<content><![CDATA[
 api.setFrameGroupIndex({
     name: '${1:group_name}',
-    index: ${2:frame_index},
+    index: ${2:0},
     scroll: ${3:true}
 });
 ]]></content>
@@ -10,5 +10,5 @@ api.setFrameGroupIndex({
 	<tabTrigger>api-setFrameGroupIndex</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
-	<description>设置窗口组当前可见子窗口</description>
+	<description>设置frame组当前可见frame</description>
 </snippet>

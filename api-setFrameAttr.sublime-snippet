@@ -3,10 +3,10 @@
 api.setFrameAttr({
     name: '${1:frame_name}',
     rect:{
-        x:${2:x},
-        y:${3:y},
-        w:${4:w},
-        h:${5:h}
+        x:${2:0},
+        y:${3:0},
+        w:${4:320},
+        h:${5:480}
     },
     bounces: ${6:true},
     opaque: ${7:true},
@@ -20,4 +20,5 @@ api.setFrameAttr({
 	<tabTrigger>api-setFrameAttr</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
+        <description>设置frame属性</description>
 </snippet>

@@ -6,4 +6,5 @@ tap
     <tabTrigger>ae-tap</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>Window或者Frame的页面全局单击事件</description>
 </snippet>

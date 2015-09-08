@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-fs.open({
+fs.read({
     fd: ${1:fd},
     offset: ${2:0},
     length: ${1:0}
@@ -13,7 +13,8 @@ fs.open({
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>fs-open</tabTrigger>
+    <tabTrigger>fs-read</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>读取文件</description>
 </snippet>

@@ -4,10 +4,10 @@ api.openFrameGroup({
     name: '${1:group_name}',
     scrollEnabled: ${2:false},
     rect: {
-    	 x:${3:0},
-	 y:${4:0},
-	 w:${5:'auto'},
-	 h:${6:'auto'}
+        x:${3:0},
+        y:${4:0},
+        w:${5:'auto'},
+        h:${6:'auto'}
     },
     index: ${7:0},
     frames: [{
@@ -23,9 +23,9 @@ api.openFrameGroup({
 
 });
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>api-openFrameGroup</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js</scope>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>api-openFrameGroup</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
     <description>打开子窗口组</description>
 </snippet>

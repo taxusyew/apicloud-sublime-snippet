@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 api.writeFile({
-    path: '${1: file_path}',
-    data: '${2: data_string}'
+    path: '${1:file_path}',
+    data: '${2:data_string}'
 }, function(ret, err){
     var status = ret.status;
     if(status){
@@ -16,4 +16,5 @@ api.writeFile({
     <tabTrigger>api-writeFile</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>写入内容到文本文件</description>
 </snippet>

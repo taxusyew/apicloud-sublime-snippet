@@ -15,4 +15,5 @@ api.openContacts(
     <tabTrigger>api-openContacts</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>在应用内打开系统通讯录界面选择联系人</description>
 </snippet>

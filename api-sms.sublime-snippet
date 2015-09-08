@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 api.sms({
-	number: ['${1: number}'],
-	text: '${2: content}'
+    number: ['${1:number}'],
+    text: '${2:content}'
 },function(ret,err){
     if (ret.status) {
        api.alert({msg: '发送成功'});
@@ -16,4 +16,5 @@ api.sms({
     <tabTrigger>api-sms</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>调用系统短信界面发送短信，或者后台直接发送短信</description>
 </snippet>

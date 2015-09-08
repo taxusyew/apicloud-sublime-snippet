@@ -1,6 +1,5 @@
 <snippet>
     <content><![CDATA[
-
 api.startLocation({
     accuracy: '${1:100m}',
     filter:${2:1},
@@ -23,4 +22,5 @@ api.startLocation({
     <tabTrigger>api-startLocation</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>开始定位</description>
 </snippet>

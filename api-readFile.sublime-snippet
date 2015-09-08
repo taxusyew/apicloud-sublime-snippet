@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 api.readFile({
-    path: '${1: file_path}'
+    path: '${1:file_path}'
 }, function(ret, err){
    if( ret.status ) {
        api.alert({msg:ret.data});
@@ -16,4 +16,5 @@ api.readFile({
     <tabTrigger>api-readFile</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>读取文本文件内容</description>
 </snippet>
