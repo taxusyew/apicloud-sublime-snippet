@@ -12,4 +12,5 @@ weibo.cancelAuth(function(ret, err){
     <tabTrigger>weibo-cancelAuth</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
+    <description>取消授权，退出登录状态</description>
 </snippet>
